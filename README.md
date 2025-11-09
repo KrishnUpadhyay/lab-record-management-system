@@ -68,6 +68,7 @@ CREATE TABLE issued_records (
     actual_return_date DATE DEFAULT NULL,
     FOREIGN KEY (component_id) REFERENCES components(component_id)
 );
+```
 
 3. Configure the api.php File
 Open the api.php file in your code editor and update the following configurations:
